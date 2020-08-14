@@ -1,11 +1,11 @@
 <template>
     <div>
-        <div className="detail">
+        <div class="detail">
             <h3>タスク管理</h3>
-            <button className="btn">
-                <a className="goToApp" href="https://reacttodoappagain.herokuapp.com/"
+            <button class="btn">
+                <a class="goToApp" href="https://reacttodoappagain.herokuapp.com/"
                     target="_blank" rel="noopener noreferrer">
-                Go to App <i className="fas fa-caret-square-right"></i>
+                Go to App <i class="fas fa-caret-square-right"></i>
                 </a>
             </button>
         </div>
