@@ -1,11 +1,11 @@
 <template>
     <div>
-        <div className="detail">
+        <div class="detail">
             <h3>ほめるん</h3>
-            <button className="btn">
-                <a className="goToApp" href="https://boiling-garden-35201.herokuapp.com/"
+            <button class="btn">
+                <a class="goToApp" href="https://boiling-garden-35201.herokuapp.com/"
                     target="_blank" rel="noopener noreferrer">
-                Go to App <i className="fas fa-caret-square-right"></i>
+                Go to App <i class="fas fa-caret-square-right"></i>
                 </a>
             </button>
         </div>

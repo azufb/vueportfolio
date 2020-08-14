@@ -1,20 +1,20 @@
 <template>
     <div>
             <h2>自己紹介</h2>
-            <div className="profileDetail">
+            <div class="profileDetail">
                 <div>
                     <span>名前: 
                         <ruby>
-                            <rb className="myName">岡本 梓沙</rb>
+                            <rb class="myName">岡本 梓沙</rb>
                             <rp>(</rp>
-                            <rt className="furigana">おかもと あずさ</rt>
+                            <rt class="furigana">おかもと あずさ</rt>
                             <rp>)</rp>
                         </ruby>
                     </span><br>
                     <span>SNS等:<br>
-                        <a className="twitterIcon" href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square fa-3x" style={this.twitterLinkStyle}></i></a>
-                        <a className="facebookIcon" href="https://www.facebook.com/profile.php?id=100006217548803" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square fa-3x" style={this.snsLinkStyle}></i></a>
-                        <a className="githubIcon" href="https://github.com/azufb" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-3x" style={this.snsLinkStyle}></i></a>
+                        <a class="twitterIcon" href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square fa-3x" style={this.twitterLinkStyle}></i></a>
+                        <a class="facebookIcon" href="https://www.facebook.com/profile.php?id=100006217548803" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square fa-3x" style={this.snsLinkStyle}></i></a>
+                        <a class="githubIcon" href="https://github.com/azufb" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-3x" style={this.snsLinkStyle}></i></a>
                         <p>
                             お問い合わせは、<br>
                             TwitterやFacebook<br>
@@ -22,7 +22,7 @@
                         </p>
                     </span>
                 </div>
-                <div className="keireki">
+                <div class="keireki">
                     <p>
                         2020年3月、大学を卒業。商学部に所属していた。<br>
                         大学入学当時は、商社への就職を夢みていたため、貿易関連の授業も履修していたものの、<br>
