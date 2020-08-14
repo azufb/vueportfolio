@@ -1,17 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ul>
+      <li
+      :class="{ active: currentTab === 'HomeTab' }"
+      @click="currentTab = 'HomeTab'"
+      >Home</li>
+      <li
+      :class="{ active: currentTab === 'ProfileTab' }"
+      @click="currentTab = 'ProfileTab'"
+      >Profile</li>
+      <li
+      :class="{ active: currentTab === 'MyWorksTab' }"
+      @click="currentTab = 'MyWorksTab'"
+      >My Works</li>
+    </ul>
+    <div>
+      <Component :is="currentTab"></Component>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomeTab from './components/HomeTab.vue';
+import ProfileTab from './components/ProfileTab.vue';
+import MyWorksTab from './components/MyWorksTab.vue';
 
 export default {
   name: 'App',
+  // 表示するタブの初期値
+  data() {
+    return {
+      currentTab: 'HomeTab',
+    };
+  },
   components: {
-    HelloWorld
+    HomeTab,
+    ProfileTab,
+    MyWorksTab
   }
 }
 </script>
@@ -24,5 +49,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+ul {
+  display: flex;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
 }
 </style>
