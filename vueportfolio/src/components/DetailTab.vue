@@ -1,5 +1,5 @@
 <template>
-    <div id="detail">
+    <div id='detail'>
         <h2>詳細</h2>
         <ul>
             <li

@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style>
+/* 全体 */
 body {
   margin: 0px;
   background-color: #c8c9c9;
@@ -58,6 +59,7 @@ body {
   margin-top: 0px;
 }
 
+/* トップのサイトタイトルとトップのナビゲーション */
 .mainTitle {
   margin-top: 0px;
   display: flex;
@@ -69,6 +71,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
 }
 
+/* ナビゲーション */
 ul {
   display: flex;
   cursor: pointer;
@@ -79,9 +82,12 @@ ul li {
   font-family: 'Oswald', sans-serif;
 }
 
+/* 各ページの見出し */
 h2 {
     border-bottom: 3px solid #d85782;
 }
+
+/* 資格のページと成果物一覧ページの一覧表 */
 table {
     border-collapse: collapse;
     cursor: pointer;
@@ -98,6 +104,36 @@ td {
     cursor: pointer;
 }
 
+/* Homeのページ */
+.aisatu {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+/* Profileページ */
+.profileDetail {
+    display: flex;
+}
+
+.twitterIcon:link, .twitterIcon:visited,
+.twitterIcon:hover, .twitterIcon:active {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.facebookIcon:link, .facebookIcon:visited,
+.facebookIcon:hover, .facebookIcon:active {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.githubIcon:link, .githubIcon:visited,
+.githubIcon:hover, .githubIcon:active {
+    color: #333;
+    cursor: pointer;
+}
+
+/* 成果物詳細ページ */
 .detail {
   display: flex;
 }
