@@ -1,6 +1,5 @@
 <template>
     <div id="prof">
-        <p>Profile</p>
         <ul>
             <li
             :class="{ active: currentTab === 'DataTab' }"

@@ -1,6 +1,6 @@
 <template>
     <div id="detail">
-        <p>詳細</p>
+        <h2>詳細</h2>
         <ul>
             <li
             :class="{ active: currentTab === 'MemoAppTab' }"

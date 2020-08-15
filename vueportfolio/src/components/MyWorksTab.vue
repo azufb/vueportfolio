@@ -1,6 +1,5 @@
 <template>
     <div id="myworks">
-        <p>My Works</p>
         <ul>
             <li
             :class="{ active: currentTab === 'ListTab' }"
