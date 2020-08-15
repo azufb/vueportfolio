@@ -20,7 +20,7 @@
             >ToDoアプリ</li>
         </ul>
         <div>
-            <Component :is="currentTab"></Component>
+            <component :is="currentTab"></component>
         </div>
     </div>
 </template>
