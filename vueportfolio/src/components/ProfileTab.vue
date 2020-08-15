@@ -1,10 +1,10 @@
 <template>
-    <div id="prof">
+    <div id='prof'>
         <ul>
             <li
             :class="{ active: currentTab === 'DataTab' }"
             @click="currentTab = 'DataTab'"
-            >Data</li>
+            >自己紹介</li>
             <li
             :class="{ active: currentTab === 'CertificatesTab' }"
             @click="currentTab = 'CertificatesTab'"
