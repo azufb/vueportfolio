@@ -70,16 +70,20 @@ body {
 }
 
 h1 {
-  margin-top: 0px;
+  margin-top: 7px;
   margin-bottom: 0px;
+  font-size: 50px;
   font-family: 'Oswald', sans-serif;
 }
 
 .mainTab {
+  margin-top: 30px;
   margin-bottom: 0px;
+  padding-left: 150px;
+  height: 30px;
 }
 
-/* ナビゲーション */
+/* ナビゲーション・タブの設定 */
 .mainTab {
   display: flex;
   cursor: pointer;
@@ -94,6 +98,7 @@ h1 {
 .profs {
   display: flex;
   cursor: pointer;
+  padding-left: 0px;
 }
 
 .profs li {
@@ -116,6 +121,7 @@ h1 {
 .details {
   display: flex;
   cursor: pointer;
+  padding-left: 0px;
 }
 
 .details li {
@@ -156,10 +162,6 @@ td {
 #prof {
   margin-left: 45px;
   margin-right: 45px;
-}
-
-.profs {
-  padding-left: 0px;
 }
 
 .profileDetail {
@@ -210,10 +212,6 @@ td {
 #detail {
   margin-left: 45px;
   margin-right: 45px;
-}
-
-.details {
-  padding-left: 0px;
 }
 
 .detail {
