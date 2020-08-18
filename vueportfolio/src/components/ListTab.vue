@@ -12,7 +12,7 @@
 
             <tbody>
                 <tr>
-                    <td>メモアプリ</td>
+                    <td>タグメモ！</td>
                     <td>JavaScript・React.js・Redux・Redux Persist</td>
                     <td>2020年8月11日</td>
                 </tr>

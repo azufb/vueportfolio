@@ -5,7 +5,7 @@
             <li
             :class="{ active: currentTab === 'MemoAppTab' }"
             @click="currentTab = 'MemoAppTab'"
-            >メモアプリ</li>
+            >タグメモ！</li>
             <li
             :class="{ active: currentTab === 'TaskKanriTab' }"
             @click="currentTab = 'TaskKanriTab'"
