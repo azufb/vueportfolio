@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class='detail'>
-            <h3>メモアプリ</h3>
+            <h3>タグメモ！</h3>
             <button class='btn'>
                 <a class='goToApp' href='https://polar-shelf-88279.herokuapp.com/'
                     target='_blank' rel='noopener noreferrer'>
