@@ -104,7 +104,6 @@ h1 {
 .profs li {
   list-style: none;
   margin-right: 15px;
-  font-family: 'Oswald', sans-serif;
 }
 
 .mWorks {
@@ -115,7 +114,6 @@ h1 {
 .mWorks li {
   list-style: none;
   margin-right: 15px;
-  font-family: 'Oswald', sans-serif;
 }
 
 .details {
@@ -127,7 +125,6 @@ h1 {
 .details li {
   list-style: none;
   margin-right: 15px;
-  font-family: 'Oswald', sans-serif;
 }
 
 /* 各ページの見出し */
