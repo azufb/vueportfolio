@@ -50,6 +50,9 @@ body {
   margin: 0px;
   background-color: #c8c9c9;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 #app {
@@ -236,4 +239,16 @@ h3 {
   color: white;
   text-decoration: none;
 }
+
+footer {
+  margin-top: auto;
+  font-family: 'Oswald', sans-serif;
+  background-color: #e6e6e6;
+}
+
+footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 </style>
