@@ -1,5 +1,5 @@
 <template>
-    <div id="myworks">
+    <div id='myworks'>
         <ul>
             <li
             :class="{ active: currentTab === 'ListTab' }"
