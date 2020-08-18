@@ -105,35 +105,51 @@ td {
 }
 
 /* Homeのページ */
-.aisatu {
-  padding-left: 45px;
-  padding-right: 45px;
+#aisatu {
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 /* Profileページ */
+#prof {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
 .profileDetail {
-    display: flex;
+  display: flex;
 }
 
 .twitterIcon:link, .twitterIcon:visited,
 .twitterIcon:hover, .twitterIcon:active {
-    color: #1DA1F2;
-    cursor: pointer;
+  color: #1DA1F2;
+  cursor: pointer;
 }
 
 .facebookIcon:link, .facebookIcon:visited,
 .facebookIcon:hover, .facebookIcon:active {
-    color: #3b5998;
-    cursor: pointer;
+  color: #3b5998;
+  cursor: pointer;
 }
 
 .githubIcon:link, .githubIcon:visited,
 .githubIcon:hover, .githubIcon:active {
-    color: #333;
-    cursor: pointer;
+  color: #333;
+  cursor: pointer;
+}
+
+/* 成果物一覧ページ */
+.list {
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 /* 成果物詳細ページ */
+#detail {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
 .detail {
   display: flex;
 }

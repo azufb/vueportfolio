@@ -1,5 +1,5 @@
 <template>
-    <div class='aisatu'>
+    <div id='aisatu'>
         <h2>Welcome To My Portfolio!!</h2>
         <p>
             こんにちは、岡本梓沙と申します。<br>
