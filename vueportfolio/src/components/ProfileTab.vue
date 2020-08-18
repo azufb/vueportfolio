@@ -1,6 +1,6 @@
 <template>
     <div id='prof'>
-        <ul>
+        <ul class='profs'>
             <li
             :class="{ active: currentTab === 'DataTab' }"
             @click="currentTab = 'DataTab'"

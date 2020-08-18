@@ -1,6 +1,6 @@
 <template>
     <div id='myworks'>
-        <ul>
+        <ul class='mWorks'>
             <li
             :class="{ active: currentTab === 'ListTab' }"
             @click="currentTab = 'ListTab'"

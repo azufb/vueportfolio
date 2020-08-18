@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id='cert'>
         <h2>保有資格</h2>
         <table>
             <thead>
@@ -41,5 +41,19 @@
                 </tr>
             </tbody>
         </table>
+
+        <Skills />
+        
     </div>
 </template>
+
+<script>
+import Skills from './Skills.vue';
+
+export default {
+    name: 'cert',
+    components: {
+        Skills,
+    }
+}
+</script>

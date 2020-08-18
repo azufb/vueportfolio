@@ -1,7 +1,7 @@
 <template>
     <div id='detail'>
         <h2>詳細</h2>
-        <ul>
+        <ul class='details'>
             <li
             :class="{ active: currentTab === 'MemoAppTab' }"
             @click="currentTab = 'MemoAppTab'"

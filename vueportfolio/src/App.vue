@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-    <div class="mainTitle">
+  <div id='app'>
+    <div class='mainTitle'>
       <h1>I am Azusa...</h1>
-      <ul>
+      <ul class='mainTab'>
         <li
         :class="{ active: currentTab === 'HomeTab' }"
         @click="currentTab = 'HomeTab'"
@@ -29,7 +29,7 @@ import ProfileTab from './components/ProfileTab.vue';
 import MyWorksTab from './components/MyWorksTab.vue';
 
 export default {
-  name: 'App',
+  name: 'app',
   // 表示するタブの初期値
   data() {
     return {
@@ -49,6 +49,7 @@ export default {
 body {
   margin: 0px;
   background-color: #c8c9c9;
+  cursor: pointer;
 }
 
 #app {
@@ -62,23 +63,64 @@ body {
 /* トップのサイトタイトルとトップのナビゲーション */
 .mainTitle {
   margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 35px;
   display: flex;
   background-color: #e6e6e6;
 }
 
 h1 {
   margin-top: 0px;
+  margin-bottom: 0px;
   font-family: 'Oswald', sans-serif;
 }
 
+.mainTab {
+  margin-bottom: 0px;
+}
+
 /* ナビゲーション */
-ul {
+.mainTab {
   display: flex;
   cursor: pointer;
 }
 
-ul li {
+.mainTab li {
   list-style: none;
+  margin-right: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.profs {
+  display: flex;
+  cursor: pointer;
+}
+
+.profs li {
+  list-style: none;
+  margin-right: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.mWorks {
+  display: flex;
+  cursor: pointer;
+}
+
+.mWorks li {
+  list-style: none;
+  margin-right: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.details {
+  display: flex;
+  cursor: pointer;
+}
+
+.details li {
+  list-style: none;
+  margin-right: 15px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -116,8 +158,28 @@ td {
   margin-right: 45px;
 }
 
+.profs {
+  padding-left: 0px;
+}
+
 .profileDetail {
   display: flex;
+}
+
+.keireki {
+  margin-left: 80px;
+}
+
+.twitterIcon {
+  padding-left: 20px;
+}
+
+.facebookIcon {
+  padding-left: 5px;
+}
+
+.githubIcon {
+  padding-left: 5px;
 }
 
 .twitterIcon:link, .twitterIcon:visited,
@@ -148,6 +210,10 @@ td {
 #detail {
   margin-left: 45px;
   margin-right: 45px;
+}
+
+.details {
+  padding-left: 0px;
 }
 
 .detail {
