@@ -18,7 +18,9 @@
       </ul>
     </div>
     <div>
+      <transition mode='out-in'>
       <component :is="currentTab"></component>
+      </transition>
     </div>
   </div>
 </template>
@@ -45,6 +47,34 @@ export default {
 </script>
 
 <style>
+/* ページ遷移アニメーション */
+.v-enter {
+  transform: translate(-100px, 0);
+  opacity: 0;
+}
+
+.v-enter-to {
+  opacity: 1;
+}
+
+.v-enter-active {
+  transition: all 1s 0s ease;
+}
+
+.v-leave {
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.v-leave-to {
+  transform: translate(100px, 0);
+  opacity: 0;
+}
+
+.v-leave-active {
+  transition: all .5s 0s ease;
+}
+
 /* 全体 */
 body {
   margin: 0px;
