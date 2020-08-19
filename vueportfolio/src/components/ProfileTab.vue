@@ -38,6 +38,11 @@ export default {
     CertificatesTab,
     TriggerTab
   }
-    
 }
 </script>
+
+<style>
+.currentTab {
+  border-bottom: 1px solid #d85782;
+}
+</style>
