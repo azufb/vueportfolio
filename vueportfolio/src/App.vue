@@ -105,27 +105,29 @@ body {
 h1 {
   margin-top: 7px;
   margin-bottom: 0px;
-  font-size: 50px;
+  font-size: 60px;
   font-family: 'Oswald', sans-serif;
-}
-
-.mainTab {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  padding-left: 150px;
-  height: 30px;
 }
 
 /* ナビゲーション・タブの設定 */
 .mainTab {
   display: flex;
   cursor: pointer;
+  margin-top: 55px;
+  margin-bottom: 0px;
+  padding-left: 150px;
+  height: 30px;
+  font-size: 20px;
 }
 
 .mainTab li {
   list-style: none;
   margin-right: 15px;
   font-family: 'Oswald', sans-serif;
+}
+
+.mainTab .active {
+  border-bottom: 2px solid #d85782;
 }
 
 .profs {
@@ -139,6 +141,10 @@ h1 {
   margin-right: 15px;
 }
 
+.profs .active {
+  border-bottom: 2px solid #d85782;
+}
+
 .mWorks {
   display: flex;
   cursor: pointer;
@@ -147,6 +153,10 @@ h1 {
 .mWorks li {
   list-style: none;
   margin-right: 15px;
+}
+
+.mWorks .active {
+  border-bottom: 2px solid #d85782;
 }
 
 .details {
@@ -160,26 +170,37 @@ h1 {
   margin-right: 15px;
 }
 
+.details .active {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-radius: 10px 10px 0 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 24px;
+}
+
 /* 各ページの見出し */
 h2 {
-    border-bottom: 3px solid #d85782;
+  border-bottom: 4px solid #d85782;
 }
 
 /* 資格のページと成果物一覧ページの一覧表 */
 table {
-    border-collapse: collapse;
-    cursor: pointer;
+  margin-top: 50px;
+  border-collapse: collapse;
+  cursor: pointer;
 }
 
 th {
-    border-bottom: 2px solid #d85782;
+  border-bottom: 2px solid #d85782;
 }
 
 td {
-    width: 230px;
-    text-align: center;
-    border-bottom: 1px solid black;
-    cursor: pointer;
+  width: 230px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  cursor: pointer;
 }
 
 /* Homeのページ */
