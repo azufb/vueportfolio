@@ -34,6 +34,7 @@
 </template>
 
 <script>
+import ToDoManagerTab from './ToDoManagerTab';
 import MemoAppTab from './MemoAppTab.vue';
 import TaskKanriTab from './TaskKanriTab.vue';
 import HomerunTab from './HomerunTab.vue';
@@ -43,10 +44,11 @@ export default {
     name: 'detail',
     data() {
     return {
-      currentTab: 'MemoAppTab',
+      currentTab: 'ToDoManagerTab',
     };
   },
   components: {
+    ToDoManagerTab,
     MemoAppTab,
     TaskKanriTab,
     HomerunTab,
