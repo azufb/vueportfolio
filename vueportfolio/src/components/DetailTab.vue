@@ -7,6 +7,10 @@
         </p>
         <ul class='details'>
             <li
+            :class="{ active: currentTab === 'ToDoManagerTab' }"
+            @click="currentTab = 'ToDoManagerTab'"
+            >ToDo Manager</li>
+            <li
             :class="{ active: currentTab === 'MemoAppTab' }"
             @click="currentTab = 'MemoAppTab'"
             >タグメモ！</li>

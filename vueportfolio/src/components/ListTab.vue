@@ -13,6 +13,12 @@
 
             <tbody>
                 <tr>
+                    <td>ToDo Manager</td>
+                    <td>JavaScript・Vue.js・Vuex・Vuex PersistedState</td>
+                    <td>2020年8月20日</td>
+                    <td>2020年8月20日</td>
+                </tr>
+                <tr>
                     <td>タグメモ！</td>
                     <td>JavaScript・React.js・Redux・Redux Persist</td>
                     <td>2020年8月11日</td>
