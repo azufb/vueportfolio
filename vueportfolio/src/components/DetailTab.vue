@@ -1,6 +1,10 @@
 <template>
     <div id='detail'>
         <h2>詳細</h2>
+        <p>
+          今まで制作した成果物の中から、いくつかピックアップしてご紹介!!<br>
+          Go to Appボタンを押すとアプリを実際に使用してみることが可能です!
+        </p>
         <ul class='details'>
             <li
             :class="{ active: currentTab === 'MemoAppTab' }"
