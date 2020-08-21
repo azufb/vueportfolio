@@ -34,7 +34,7 @@ import ToDoManagerTab from './worksdetail/ToDoManagerTab';
 import MemoAppTab from './worksdetail/MemoAppTab.vue';
 import TaskKanriTab from './worksdetail/TaskKanriTab.vue';
 import HomerunTab from './worksdetail/HomerunTab.vue';
-import VueToDoAppTab from './worksdetail/VueToDoAppTab.vue';
+// import VueToDoAppTab from './worksdetail/VueToDoAppTab.vue';
 
 export default {
     name: 'detail',
@@ -48,7 +48,7 @@ export default {
     MemoAppTab,
     TaskKanriTab,
     HomerunTab,
-    VueToDoAppTab
+    // VueToDoAppTab
   }
 }
 </script>
