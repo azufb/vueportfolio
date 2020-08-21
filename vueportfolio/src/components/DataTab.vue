@@ -11,6 +11,9 @@
                         <rp>)</rp>
                     </ruby>
                 </span><br>
+                <span>生年月日:
+                    1998年2月10日
+                </span><br>
                 <span>SNS等:<br>
                     <a class='twitterIcon' href='https://twitter.com/azu_proglove' target='_blank' rel='noopener noreferrer'><i class='fab fa-twitter-square fa-3x'></i></a>
                     <a class='facebookIcon' href='https://www.facebook.com/profile.php?id=100006217548803' target='_blank' rel='noopener noreferrer'><i class='fab fa-facebook-square fa-3x'></i></a>
