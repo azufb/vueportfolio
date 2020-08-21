@@ -34,11 +34,11 @@
 </template>
 
 <script>
-import ToDoManagerTab from './ToDoManagerTab';
-import MemoAppTab from './MemoAppTab.vue';
-import TaskKanriTab from './TaskKanriTab.vue';
-import HomerunTab from './HomerunTab.vue';
-import VueToDoAppTab from './VueToDoAppTab.vue';
+import ToDoManagerTab from './worksdetail/ToDoManagerTab';
+import MemoAppTab from './worksdetail/MemoAppTab.vue';
+import TaskKanriTab from './worksdetail/TaskKanriTab.vue';
+import HomerunTab from './worksdetail/HomerunTab.vue';
+import VueToDoAppTab from './worksdetail/VueToDoAppTab.vue';
 
 export default {
     name: 'detail',
