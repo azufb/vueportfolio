@@ -28,7 +28,7 @@
 <script>
 import HomeTab from './components/HomeTab.vue';
 import ProfileTab from './components/ProfileTab.vue';
-import MyWorksTab from './components/MyWorksTab.vue';
+import MyWorksTab from './components/MyWorksTab';
 
 export default {
   name: 'app',
