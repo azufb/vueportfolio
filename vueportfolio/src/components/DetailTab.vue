@@ -22,10 +22,6 @@
             :class="{ active: currentTab === 'HomerunTab' }"
             @click="currentTab = 'HomerunTab'"
             >ほめるん</li>
-            <li
-            :class="{ active: currentTab === 'VueToDoAppTab' }"
-            @click="currentTab = 'VueToDoAppTab'"
-            >ToDoアプリ</li>
         </ul>
         <div>
             <component :is="currentTab"></component>
