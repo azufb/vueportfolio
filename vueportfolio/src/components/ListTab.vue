@@ -14,7 +14,7 @@
             <tbody>
                 <tr>
                     <td>ToDo Manager</td>
-                    <td>JavaScript・Vue.js・Vuex・Vuex PersistedState</td>
+                    <td>JavaScript・Vue.js・Vuex・No Class CSS・Vuex PersistedState</td>
                     <td>2020年8月20日</td>
                     <td>2020年8月20日</td>
                 </tr>
