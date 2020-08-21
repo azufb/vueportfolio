@@ -224,15 +224,15 @@ td {
 }
 
 .twitterIcon {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .facebookIcon {
-  padding-left: 5px;
+  margin-left: 5px;
 }
 
 .githubIcon {
-  padding-left: 5px;
+  margin-left: 5px;
 }
 
 .twitterIcon:link, .twitterIcon:visited,
@@ -290,6 +290,17 @@ h3 {
   color: white;
   text-decoration: none;
 }
+
+.githubIcon2 {
+  margin-left: 10px;
+}
+
+.githubIcon2:link, .githubIcon2:visited,
+.githubIcon2:hover, .githubIcon2:active {
+  color: #333;
+  cursor: pointer;
+}
+
 
 footer {
   margin-top: auto;

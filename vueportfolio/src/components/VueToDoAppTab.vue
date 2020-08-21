@@ -8,6 +8,7 @@
                 Go to App <i class='fas fa-caret-square-right'></i>
                 </a>
             </button>
+            <a class='githubIcon2' href='https://github.com/azufb/ToDoAppwithVue.js' target='_blank' rel='noopener noreferrer'><i class='fab fa-github fa-2x'></i></a>
         </div>
         <h4>制作のきっかけ</h4>
         <p>
