@@ -13,8 +13,14 @@
 
             <tbody>
                 <tr>
+                    <td>Equipment Manager</td>
+                    <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・No Class CSS</td>
+                    <td>2020年8月21日</td>
+                    <td>2020年8月21日</td>
+                </tr>
+                <tr>
                     <td>ToDo Manager</td>
-                    <td>JavaScript・Vue.js・Vuex・No Class CSS・Vuex PersistedState</td>
+                    <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・No Class CSS</td>
                     <td>2020年8月20日</td>
                     <td>2020年8月21日</td>
                 </tr>
