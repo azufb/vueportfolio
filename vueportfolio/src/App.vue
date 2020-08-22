@@ -115,14 +115,15 @@ h1 {
   cursor: pointer;
   margin-top: 55px;
   margin-bottom: 0px;
-  padding-left: 150px;
+  margin-left: 150px;
+  padding-left: 0px;
   height: 30px;
   font-size: 20px;
 }
 
 .mainTab li {
   list-style: none;
-  margin-right: 15px;
+  margin-right: 45px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -203,7 +204,7 @@ td {
   cursor: pointer;
 }
 
-/* Homeのページ */
+/* Homeのページ (imgは元々幅650pxだった)*/
 img {
   margin-left: 10px;
   width: 1090px;
