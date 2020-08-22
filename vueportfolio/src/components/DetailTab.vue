@@ -7,6 +7,10 @@
         </p>
         <ul class='details'>
             <li
+            :class="{ active: currentTab === 'EquipmentManagerTab' }"
+            @click="currentTab = 'EquipmentManagerTab'"
+            >Equipment Manager</li>
+            <li
             :class="{ active: currentTab === 'ToDoManagerTab' }"
             @click="currentTab = 'ToDoManagerTab'"
             >ToDo Manager</li>
@@ -30,6 +34,7 @@
 </template>
 
 <script>
+import EquipmentManagerTab from './worksdetail/EquipmentManagerTab';
 import ToDoManagerTab from './worksdetail/ToDoManagerTab';
 import MemoAppTab from './worksdetail/MemoAppTab.vue';
 import TaskKanriTab from './worksdetail/TaskKanriTab.vue';
@@ -44,6 +49,7 @@ export default {
     };
   },
   components: {
+    EquipmentManagerTab,
     ToDoManagerTab,
     MemoAppTab,
     TaskKanriTab,
