@@ -204,6 +204,11 @@ td {
 }
 
 /* Homeのページ */
+img {
+  margin-left: 10px;
+  width: 1090px;
+  height: 350px;
+}
 #aisatu {
   margin-left: 45px;
   margin-right: 45px;
