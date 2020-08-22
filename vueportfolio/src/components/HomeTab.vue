@@ -1,6 +1,7 @@
 <template>
     <div id='aisatu'>
         <h2>Welcome To My Portfolio!!</h2>
+        <img src='./headder.png' alt=''>
         <p>
             こんにちは、岡本梓沙と申します。<br>
             私のポートフォリオサイトにお尋ねくださり、ありがとうございます。<br>
