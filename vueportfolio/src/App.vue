@@ -205,7 +205,7 @@ td {
 }
 
 /* Homeのページ (imgは元々幅650pxだった)*/
-img {
+.headPic {
   margin-left: 10px;
   width: 1090px;
   height: 350px;
