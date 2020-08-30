@@ -12,10 +12,10 @@
         </div>
         <h4>制作のきっかけ</h4>
         <p>
-            前回、React.jsを用いてToDoアプリを作成した時に、React Hooksを使ってしまい、<br>
-            楽をしてしまった感覚があり、きちんとReact.jsの文法の理解をしたいと思ったから。
+            React・Reduxの勉強のため、作成。<br>
+            タスクの追加・編集・完了/未完了のチェックボックス・削除の機能を持つ<br>
         </p>
         <h4>使用言語・技術等</h4>
-        <p>JavaScript・React.js・Heroku</p>
+        <p>JavaScript・React.js・Redux・Material UI・Heroku</p>
     </div>
 </template>
