@@ -24,7 +24,7 @@
                     <td>ToDo Manager</td>
                     <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>No Class CSS</td>
                     <td>2020年8月20日</td>
-                    <td>2020年8月21日</td>
+                    <td>2020年8月31日</td>
                     <td>タスク管理</td>
                 </tr>
                 <tr>
