@@ -14,23 +14,23 @@
             <tbody>
                 <tr>
                     <td>ITパスポート試験</td>
-                    <td>2020年6月</td>
+                    <td>2020年06月</td>
+                    <td>TOEIC 785点</td>
+                    <td>2018年06月</td>
+                </tr>
+
+                <tr>
+                    <td>Excel VBAスタンダード</td>
+                    <td>2020年02月</td>
                     <td>日商ビジネス英語検定3級</td>
                     <td>2018年04月</td>
                 </tr>
 
                 <tr>
-                    <td>Excel VBAスタンダード</td>
-                    <td>2020年2月</td>
+                    <td></td>
+                    <td></td>
                     <td>ファイナンシャル・プランニング技能士3級</td>
                     <td>2018年03月</td>
-                </tr>
-
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>TOEIC 785点</td>
-                    <td>2018年06月</td>
                 </tr>
 
                 <tr>
