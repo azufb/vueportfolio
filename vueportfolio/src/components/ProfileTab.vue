@@ -9,10 +9,6 @@
             :class="{ active: currentTab === 'CertificatesTab' }"
             @click="currentTab = 'CertificatesTab'"
             >資格・スキル</li>
-            <li
-            :class="{ active: currentTab === 'TriggerTab' }"
-            @click="currentTab = 'TriggerTab'"
-            >きっかけ</li>
         </ul>
         <div>
             <component :is="currentTab"></component>
@@ -23,7 +19,6 @@
 <script>
 import DataTab from './DataTab.vue';
 import CertificatesTab from './Certificates.vue';
-import TriggerTab from './Trigger.vue';
 
 export default {
     name: 'prof',
@@ -35,8 +30,7 @@ export default {
   },
   components: {
     DataTab,
-    CertificatesTab,
-    TriggerTab
+    CertificatesTab
   }
 }
 </script>
