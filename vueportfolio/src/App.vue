@@ -226,7 +226,7 @@ td {
 }
 
 .keireki {
-  margin-left: 80px;
+  margin-left: 65px;
 }
 
 .twitterIcon {
