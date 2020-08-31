@@ -45,7 +45,7 @@ export default {
     name: 'detail',
     data() {
     return {
-      currentTab: 'ToDoManagerTab',
+      currentTab: 'EquipmentManagerTab',
     };
   },
   components: {
