@@ -37,9 +37,9 @@
 
                 <tr>
                     <td>タスク管理</td>
-                    <td>JavaScript・React.js</td>
+                    <td>JavaScript・React.js・Redux・Redux Persist・<br>Material UI</td>
                     <td>2020年7月30日</td>
-                    <td>2020年7月30日</td>
+                    <td>2020年8月31日</td>
                     <td>タスク管理</td>
                 </tr>
 
