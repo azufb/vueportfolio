@@ -15,7 +15,7 @@
             <tbody>
                 <tr>
                     <td>Equipment Manager</td>
-                    <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>No Class CSS</td>
+                    <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>Vuetify</td>
                     <td>2020年8月21日</td>
                     <td>2020年9月01日</td>
                     <td>備品管理</td>
