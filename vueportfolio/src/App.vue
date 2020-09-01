@@ -168,14 +168,12 @@ h1 {
 
 .details li {
   list-style: none;
+  margin-top: 15px;
   margin-right: 15px;
 }
 
 .details .active {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-  border-radius: 10px 10px 0 0;
+  border-bottom: 2px solid #d85782;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 24px;
@@ -408,7 +406,7 @@ footer p {
   }
 
   .details li {
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   .details .active {
