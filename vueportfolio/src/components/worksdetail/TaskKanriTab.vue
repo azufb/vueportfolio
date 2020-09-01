@@ -12,8 +12,8 @@
         </div>
         <h4>制作のきっかけ</h4>
         <p>
-            React・Reduxの勉強のため、作成。<br>
-            タスクの追加・編集・完了/未完了のチェックボックス・削除の機能を持つ<br>
+            React・Reduxの勉強のため、作成しました。<br>
+            タスクの追加・編集・完了/未完了のチェックボックス・削除の機能を持っています。<br>
         </p>
         <h4>使用言語・技術等</h4>
         <p>JavaScript・React.js・Redux・Material UI・Heroku</p>
