@@ -3,7 +3,7 @@
         <div class='detail'>
             <h3>Equipment Manager</h3>
             <button class='btn'>
-                <a class='goToApp' href='https://dev3010.d2j6h8ots9qbsk.amplifyapp.com'
+                <a class='goToApp' href='https://dev8517.dwj93vawbfk2c.amplifyapp.com/'
                     target='_blank' rel='noopener noreferrer'>
                 Go to App <i class='fas fa-caret-square-right'></i>
                 </a>
