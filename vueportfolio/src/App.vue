@@ -204,6 +204,10 @@ td {
   cursor: pointer;
 }
 
+.text2 {
+  display: none;
+}
+
 /* Homeのページ (imgは元々幅650pxだった)*/
 #aisatu {
   margin-left: 45px;
@@ -331,11 +335,15 @@ footer p {
   }
 
   .genre {
-    visibility: hidden;
+    display: none;
+  }
+
+  .mainTitle {
+    width: auto;
   }
 
   h1 {
-    margin-top: 7px;
+    margin-top: 15px;
     margin-bottom: 0px;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
@@ -343,7 +351,7 @@ footer p {
 
   .mainTab {
     display: block;
-    margin-top: 45px;
+    margin-top: 0px;
     margin-left: 10px;
     font-size: 17px;
   }
@@ -377,15 +385,17 @@ footer p {
   .list {
     margin-left: 10px;
     margin-right: 0px;
-    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
   }
 
   .latest {
     font-size: 10.5px;
   }
 
-  .date {
-    font-size: 13.5px
+  .display {
+    font-size: 8px;
   }
 
   #detail {
@@ -407,6 +417,7 @@ footer p {
     border-top: none;
     border-bottom: 2px solid #d85782;
     text-align: center;
+    font-size: 15px;
   }
 
   .detail {
@@ -415,6 +426,14 @@ footer p {
 
   }
 
+  .text1 {
+    display: none;
+  }
+
+  .text2 {
+    display: inline;
+    font-size: 11px;
+  }
 }
 
 </style>

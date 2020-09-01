@@ -16,50 +16,50 @@
                 <tr>
                     <td>Equipment Manager</td>
                     <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>Vuetify</td>
-                    <td class='date'>2020年8月21日</td>
-                    <td class='date'>2020年9月01日</td>
+                    <td class='date'>2020年<br>8月21日</td>
+                    <td class='date'>2020年<br>9月01日</td>
                     <td class='genre'>備品管理</td>
                 </tr>
                 <tr>
                     <td>ToDo Manager</td>
                     <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>No Class CSS</td>
-                    <td class='date'>2020年8月20日</td>
-                    <td class='date'>2020年9月01日</td>
+                    <td class='date'>2020年<br>8月20日</td>
+                    <td class='date'>2020年<br>9月01日</td>
                     <td class='genre'>タスク管理</td>
                 </tr>
                 <tr>
                     <td>タグメモ！</td>
                     <td>JavaScript・React.js・Redux・Redux Persist</td>
-                    <td class='date'>2020年8月11日</td>
-                    <td class='date'>2020年9月01日</td>
+                    <td class='date'>2020年<br>8月11日</td>
+                    <td class='date'>2020年<br>9月01日</td>
                     <td class='genre'>メモアプリ</td>
                 </tr>
                 <tr>
                     <td>タスク管理</td>
                     <td>JavaScript・React.js・Redux・Redux Persist・<br>Material UI</td>
-                    <td class='date'>2020年7月30日</td>
-                    <td class='date'>2020年8月31日</td>
+                    <td class='date'>2020年<br>7月30日</td>
+                    <td class='date'>2020年<br>8月31日</td>
                     <td class='genre'>タスク管理</td>
                 </tr>
                 <tr>
                     <td>My Task List</td>
                     <td>JavaScript・React.js</td>
-                    <td class='date'>2020年7月24日</td>
-                    <td class='date'>2020年7月24日</td>
+                    <td class='date'>2020年<br>7月24日</td>
+                    <td class='date'>2020年<br>7月24日</td>
                     <td class='genre'>タスク管理</td>
                 </tr>   
                 <tr>
                     <td>ほめるん</td>
                     <td>JavaScript・React.js</td>
-                    <td class='date'>2020年7月19日</td>
-                    <td class='date'>2020年7月19日</td>
+                    <td class='date'>2020年<br>7月19日</td>
+                    <td class='date'>2020年<br>7月19日</td>
                     <td class='genre'>チャットボット</td>
                 </tr>
                 <tr>
                     <td>ToDo管理アプリ</td>
                     <td>JavaScript・Vue.js</td>
-                    <td class='date'>2020年7月05日</td>
-                    <td class='date'>2020年7月05日</td>
+                    <td class='date'>2020年<br>7月05日</td>
+                    <td class='date'>2020年<br>7月05日</td>
                     <td class='genre'>タスク管理</td>
                 </tr>
             </tbody>
