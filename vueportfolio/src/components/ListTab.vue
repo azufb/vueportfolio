@@ -1,5 +1,5 @@
 <template>
-    <div class="list">
+    <div class='list'>
         <h2>成果物一覧</h2>
         <table>
             <thead>
