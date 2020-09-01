@@ -17,21 +17,21 @@
                     <td>Equipment Manager</td>
                     <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>No Class CSS</td>
                     <td>2020年8月21日</td>
-                    <td>2020年8月21日</td>
+                    <td>2020年9月01日</td>
                     <td>備品管理</td>
                 </tr>
                 <tr>
                     <td>ToDo Manager</td>
                     <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>No Class CSS</td>
                     <td>2020年8月20日</td>
-                    <td>2020年8月31日</td>
+                    <td>2020年9月01日</td>
                     <td>タスク管理</td>
                 </tr>
                 <tr>
                     <td>タグメモ！</td>
                     <td>JavaScript・React.js・Redux・Redux Persist</td>
                     <td>2020年8月11日</td>
-                    <td>2020年8月18日</td>
+                    <td>2020年9月01日</td>
                     <td>メモアプリ</td>
                 </tr>
 
