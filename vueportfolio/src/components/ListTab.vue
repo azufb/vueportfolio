@@ -11,7 +11,7 @@
                     <th>ジャンル</th>
                 </tr>
             </thead>
-
+            
             <tbody>
                 <tr>
                     <td>Equipment Manager</td>
@@ -34,7 +34,6 @@
                     <td>2020年9月01日</td>
                     <td>メモアプリ</td>
                 </tr>
-
                 <tr>
                     <td>タスク管理</td>
                     <td>JavaScript・React.js・Redux・Redux Persist・<br>Material UI</td>
@@ -42,15 +41,13 @@
                     <td>2020年8月31日</td>
                     <td>タスク管理</td>
                 </tr>
-
                 <tr>
                     <td>My Task List</td>
                     <td>JavaScript・React.js</td>
                     <td>2020年7月24日</td>
                     <td>2020年7月24日</td>
                     <td>タスク管理</td>
-                </tr>
-                    
+                </tr>   
                 <tr>
                     <td>ほめるん</td>
                     <td>JavaScript・React.js</td>
@@ -58,7 +55,6 @@
                     <td>2020年7月19日</td>
                     <td>チャットボット</td>
                 </tr>
-
                 <tr>
                     <td>ToDo管理アプリ</td>
                     <td>JavaScript・Vue.js</td>
