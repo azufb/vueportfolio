@@ -3,7 +3,7 @@
         <div class='detail'>
             <h3>タグメモ！</h3>
             <button class='btn'>
-                <a class='goToApp' href='https://polar-shelf-88279.herokuapp.com/'
+                <a class='goToApp' href='https://tagmemo.netlify.app'
                     target='_blank' rel='noopener noreferrer'>
                 Go to App <i class='fas fa-caret-square-right'></i>
                 </a>
