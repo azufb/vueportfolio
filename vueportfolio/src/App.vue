@@ -205,11 +205,6 @@ td {
 }
 
 /* Homeのページ (imgは元々幅650pxだった)*/
-.headPic {
-  margin-left: 10px;
-  width: 1090px;
-  height: 350px;
-}
 #aisatu {
   margin-left: 45px;
   margin-right: 45px;
@@ -317,6 +312,109 @@ footer {
 footer p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+@media(max-width: 767px) {
+  table {
+    margin-top: 20px;
+  }
+
+  th {
+    font-size: 12px;
+  }
+
+  td {
+    width: 230px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 10px;
+  }
+
+  .genre {
+    visibility: hidden;
+  }
+
+  h1 {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .mainTab {
+    display: block;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+
+  .mainTab li {
+    width: 70px;
+    text-align: center;
+  }
+
+  #aisatu {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #prof {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .profileDetail {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .keireki {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .list {
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 300px;
+  }
+
+  .latest {
+    font-size: 10.5px;
+  }
+
+  .date {
+    font-size: 13.5px
+  }
+
+  #detail {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .details {
+    display: inline;
+  }
+
+  .details li {
+    margin-top: 10px;
+  }
+
+  .details .active {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #d85782;
+    text-align: center;
+  }
+
+  .detail {
+    margin-top: 10px;
+    display: block;
+
+  }
+
 }
 
 </style>

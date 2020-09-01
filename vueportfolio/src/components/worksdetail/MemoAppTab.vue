@@ -19,11 +19,11 @@
             書かなければわからないですよね。<br>
             しかし、メモそれぞれをジャンル分けできるようにすれば、思い出しやすいと<br>
             考えました。そこで、この「タグメモ!」というアプリケーションを制作しまし<br>
-            た。メモを入力する時に、Work・Vaction・Moneyの中から、ジャンルを選択<br>
-            することで、メモを表示する時に、選択したジャンルと共に表示することが可<br>
-            能になっています。
+            た。メモを入力する時に、Work・Vaction・Moneyの3つの中から、ジャン<br>
+            ルを選択することで、メモを表示する時に、選択したジャンルと共に表示する<br>
+            ことが可能になっています。
         </p>
         <h4>使用言語・技術等</h4>
-        <p>JavaScript・React.js・Redux・Redux Persist・Heroku</p>
+        <p>JavaScript・React.js・Redux・Redux Persist・Netlify</p>
     </div>
 </template>
