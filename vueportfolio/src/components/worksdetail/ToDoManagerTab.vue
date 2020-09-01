@@ -3,7 +3,7 @@
         <div class='detail'>
             <h3>ToDo Manager</h3>
             <button class='btn'>
-                <a class='goToApp' href='https://newtodo.netlify.app'
+                <a class='goToApp' href='https://vuetodoappagain.netlify.app'
                     target='_blank' rel='noopener noreferrer'>
                 Go to App <i class='fas fa-caret-square-right'></i>
                 </a>
