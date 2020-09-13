@@ -14,6 +14,13 @@
             
             <tbody>
                 <tr>
+                    <td>ToDo管理</td>
+                    <td>JavaScript・Vue.js・Vuex・Vuex PersistedState
+                    <td class='date'>2020年<br>9月12日</td>
+                    <td class='date'>2020年<br>9月12日</td>
+                    <td class='genre'>タスク管理</td>
+                </tr>
+                <tr>
                     <td>Equipment Manager</td>
                     <td>JavaScript・Vue.js・Vuex・Vuex PersistedState・<br>Vuetify</td>
                     <td class='date'>2020年<br>8月21日</td>

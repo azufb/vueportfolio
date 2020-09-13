@@ -6,6 +6,10 @@
           Go to Appボタンを押すとアプリを実際に使用してみることが可能です!
         </p>
         <ul class='details'>
+            <li
+            :class="{ active: currentTab === 'todokanriTab' }"
+            @click="currentTab = 'todokanriTab'"
+            >ToDo管理</li>
             <!--li
             :class="{ active: currentTab === 'EquipmentManagerTab' }"
             @click="currentTab = 'EquipmentManagerTab'"
@@ -34,6 +38,7 @@
 </template>
 
 <script>
+import todokanriTab from './worksdetail/todokanriTab';
 // import EquipmentManagerTab from './worksdetail/EquipmentManagerTab';
 import ToDoManagerTab from './worksdetail/ToDoManagerTab';
 import MemoAppTab from './worksdetail/MemoAppTab.vue';
@@ -45,11 +50,12 @@ export default {
     name: 'detail',
     data() {
     return {
-      currentTab: 'ToDoManagerTab'
+      currentTab: 'todokanriTab'
       // currentTab: 'EquipmentManagerTab',
     };
   },
   components: {
+    todokanriTab,
     // EquipmentManagerTab,
     ToDoManagerTab,
     MemoAppTab,
