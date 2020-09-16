@@ -11,6 +11,7 @@
             <a class='githubIcon2' href='https://github.com/azufb/VueToDoAgain' target='_blank' rel='noopener noreferrer'><i class='fab fa-github fa-2x'></i></a>
         </div>
         <h4>制作のきっかけ</h4>
+        <img src='../../todomanager.png'>
         <p class='text1'>
             以前Vue.jsで作ったアプリをより良いものにしたいと思って、制作を計画しました。<br>
             以前のものは、「リロードしたら消えていく」「チェックボックスをクリックす<br>

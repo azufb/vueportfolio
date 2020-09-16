@@ -11,6 +11,7 @@
             <a class='githubIcon2' href='https://github.com/azufb/ToDoAppwithPraise' target='_blank' rel='noopener noreferrer'><i class='fab fa-github fa-2x'></i></a>
         </div>
         <h4>制作のきっかけ</h4>
+        <img src='../../todokanri.png'>
         <p class='text1'>
             前回、ToDoアプリを作った時に、「チェックボックスにチェックしただけでは、<br>
             タスクの完了・未完了が分かりづらい」というご意見を頂きました。<br>
