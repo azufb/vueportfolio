@@ -11,6 +11,7 @@
             <a class='githubIcon2' href='https://github.com/azufb/ReactChatBot' target='_blank' rel='noopener noreferrer'><i class='fab fa-github fa-2x'></i></a>
         </div>
         <h4>制作のきっかけ</h4>
+        <img src='../../homerun.png'>
         <p class='text1'>
             私は、大学4年生の時に、うつ病と診断を受けました。(現在は治っております。)<br>
             その時、カウンセリングの先生に教えて頂いたことが、「ほめること」の大切さ<br>

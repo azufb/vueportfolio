@@ -11,6 +11,7 @@
             <a class='githubIcon2' href='https://github.com/azufb/ReactToDoAppAgain' target='_blank' rel='noopener noreferrer'><i class='fab fa-github fa-2x'></i></a>
         </div>
         <h4>制作のきっかけ</h4>
+        <img src='../../reacttodoappagain.png'>
         <p>
             React・Reduxの勉強のため、作成しました。<br>
             タスクの追加・編集・完了/未完了のチェックボックス・削除の機能を持っています。<br>

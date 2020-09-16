@@ -11,6 +11,7 @@
             <a class='githubIcon2' href='https://github.com/azufb/MemoAppwithRedux' target='_blank' rel='noopener noreferrer'><i class='fab fa-github fa-2x'></i></a>
         </div>
         <h4>制作のきっかけ</h4>
+        <img src='../../tagmemo.png'>
         <p class='text1'>
             よくメモアプリを利用するのですが、金額などの数字だけ書いてしまったり、<br>
             ささっとメモをしてしまい、後で見返すと、何を意味する数字なのか、何のた<br>
