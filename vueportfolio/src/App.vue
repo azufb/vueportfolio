@@ -202,14 +202,26 @@ td {
   cursor: pointer;
 }
 
-.text2 {
-  display: none;
-}
-
 /* Homeのページ (imgは元々幅650pxだった)*/
 #aisatu {
   margin-left: 45px;
   margin-right: 45px;
+}
+
+.homeDisp {
+  display: flex;
+}
+
+.profpic1 {
+  margin-left: 90px;
+}
+
+.text2 {
+  display: none;
+}
+
+.profpic2 {
+  display: none;
 }
 
 /* Profileページ */
@@ -431,6 +443,14 @@ footer p {
   .text2 {
     display: inline;
     font-size: 11px;
+  }
+
+  .profpic1 {
+    display: none;
+  }
+
+  .profpic2 {
+    display: inline;
   }
 }
 
